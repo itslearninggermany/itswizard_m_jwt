@@ -3,6 +3,7 @@ package itswizard_m_jwt
 import (
 	"errors"
 	"fmt"
+	jwt "github.com/dgrijalva/jwt-go"
 	"github.com/jinzhu/gorm"
 	"net/http"
 	"net/url"

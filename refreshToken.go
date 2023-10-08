@@ -16,7 +16,8 @@ type RefreshToken struct {
 
 func createRefreshToken(username string) *RefreshToken {
 	re := new(RefreshToken)
-	u1 := uuid.Must(uuid.NewV4())
+	var err error
+	u1 := uuid.Must(uuid.NewV4(), err)
 	re.RefreshToken = u1.String()
 	re.Username = username
 	return re

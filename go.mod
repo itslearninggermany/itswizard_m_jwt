@@ -3,7 +3,9 @@ module github.com/itslearninggermany/itswizard_m_jwt
 go 1.19
 
 require (
+	github.com/auth0/go-jwt-middleware v1.0.1 // indirect
 	github.com/aws/aws-sdk-go v1.45.17 // indirect
+	github.com/dgrijalva/jwt-go v3.2.0+incompatible // indirect
 	github.com/form3tech-oss/jwt-go v3.2.5+incompatible // indirect
 	github.com/itslearninggermany/itswizard_m_awsbrooker v1.0.0 // indirect
 	github.com/itslearninggermany/itswizard_m_basic v1.0.2 // indirect
